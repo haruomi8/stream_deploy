@@ -1,2 +1,3 @@
 import streamlit as st
-st.title("hello")
+if st.button("hello"):
+    st.text("hello")
